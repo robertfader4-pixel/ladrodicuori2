@@ -1,6 +1,7 @@
 
 :root{
-  --bg:#fff9fb;
+  --reading-scale:1;
+    --bg:#fff9fb;
   --paper:#fffdfd;
   --text:#4b4354;
   --muted:#756c80;
@@ -118,3 +119,8 @@ img{max-width:100%;display:block}
   .hero-copy,.chapter-copy,.content-grid,.footer-note{padding-left:20px; padding-right:20px}
   .reading-panel{padding:22px}
 }
+
+
+.font-scale-row{display:flex; align-items:center; gap:10px; flex-wrap:wrap}
+.font-scale-value{font-size:.92rem; color:var(--muted); min-width:52px}
+.reading-panel,.exercise-section,.finale-box{transition:font-size .18s ease}
